@@ -23,7 +23,7 @@ def receber_input(mensagem, bloquear = False)
 				valor = input(mensagem)
 			return int(valor)
 
-	mensagem = 'olaarrr'
+	mensagem = 'Python é massa'
 	receber_input(mensagem, bloquear=True)
 	receber_input(mensagem)
 	
